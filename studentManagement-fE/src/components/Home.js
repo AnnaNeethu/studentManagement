@@ -30,6 +30,11 @@ function Home() {
             }).then(function (response) {
                 if (response.status == 200) {
                     setFlag(true)
+                    setName('');
+                    setDob('');
+                    setClass('');
+                    setDiv('');
+                    setGender('')
                 }
             })
         }
